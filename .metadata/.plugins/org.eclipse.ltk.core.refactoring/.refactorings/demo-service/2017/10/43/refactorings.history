@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;demoInfo&apos; in &apos;demo.controller.ServiceInfoController.getServiceInfo()&apos; to &apos;serviceInfo&apos;&#x0A;- Original project: &apos;demo-service&apos;&#x0A;- Original element: &apos;demo.controller.ServiceInfoController.getServiceInfo().demoInfo&apos;&#x0A;- Renamed element: &apos;demoInfo&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;demoInfo&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;demo.controller{ServiceInfoController.java[ServiceInfoController~getServiceInfo@demoInfo!631!671!643!650!QServiceInfo;!0!false" name="serviceInfo" references="true" stamp="1508981164268" version="1.0"/>
+</session>

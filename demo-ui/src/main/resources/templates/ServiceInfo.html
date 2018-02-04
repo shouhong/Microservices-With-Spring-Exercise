@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title th:text="${title}">云服务中心微服务简介</title>
+</head>
+<body style="font-size:16px;height:100%;width:80%;margin:50px auto;font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;">
+	<div style="text-align:center;background:#2db7f5;color:white;line-height:60px;font-size:20px;"><span th:text="${title}">云服务中心微服务简介</span> </div>
+	<div style="padding:20px 50px;margin:20px auto;height:100%;background:#eee;">
+		<br />
+		<h4 style="color:#666;font-size:17px;"><span th:text="${description}">云服务中心微服务可以通过应用包部署，也可以通过容器镜像部署。运行在云服务中心上的微服务具有弹性伸缩、高可用、故障自愈等特性。</span></h4>
+		<br />
+	</div>
+	<p style="color:green;padding:20px;width:80%;">来源: <span th:text="${source}">192.168.1.1</span>（版本：<span th:text="${version}">v1.0</span>）</p>
+</body>
+</html>

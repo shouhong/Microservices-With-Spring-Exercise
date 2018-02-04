@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Mon Oct 16 23:07:39 CST 2017
+org.eclipse.jst.jee.server\:try-1-boot=/Users/shouhong/work/tools/sts-bundle/pivotal-tc-server-developer-3.2.2.RELEASE/base-instance/wtpwebapps/try-1-boot
+org.eclipse.jst.jee.server\:/binary\:/Users/shouhong/.m2/repository/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar=/Users/shouhong/work/tools/sts-bundle/pivotal-tc-server-developer-3.2.2.RELEASE/base-instance/wtpwebapps/try-1-boot/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/shouhong/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.20/tomcat-embed-websocket-8.5.20.jar=/Users/shouhong/work/tools/sts-bundle/pivotal-tc-server-developer-3.2.2.RELEASE/base-instance/wtpwebapps/try-1-boot/WEB-INF/lib/tomcat-embed-websocket-8.5.20.jar

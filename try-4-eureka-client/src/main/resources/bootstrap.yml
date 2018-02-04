@@ -1,0 +1,37 @@
+---
+spring:
+  profiles: sentence
+  application:
+    name: try-4-sentence
+    
+---
+spring:
+  profiles: subject
+  application:
+    name: try-4-subject
+    
+---
+spring:
+  profiles: verb
+  application:
+    name: try-4-verb
+    
+---
+spring:
+  profiles: article
+  application:
+    name: try-4-article
+    
+---
+spring:
+  profiles: adjective
+  application:
+    name: try-4-adjective
+    
+---
+spring:
+  profiles: noun
+  application:
+    name: try-4-noun
+
+    

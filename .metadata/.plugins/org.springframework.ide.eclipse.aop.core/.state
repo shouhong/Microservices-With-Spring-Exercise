@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="lab-10-config-server"/>
+<aop-project name="lab-6-sentence-server"/>
+<aop-project name="try-1-boot"/>
+<aop-project name="try-4-eureka-server"/>
+<aop-project name="lab-7-sentence-server-solution-reactive">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/Application.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution-reactive|3:java:demo.Application|8:wordServiceImpl:25" bean-file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="25" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution-reactive/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getArticle" target-start-line="54"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution-reactive|3:java:demo.Application|8:wordServiceImpl:25" bean-file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="25" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution-reactive/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getNoun" target-start-line="70"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution-reactive|3:java:demo.Application|8:wordServiceImpl:25" bean-file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="25" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution-reactive/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getSubject" target-start-line="37"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution-reactive|3:java:demo.Application|8:wordServiceImpl:25" bean-file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="25" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution-reactive/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getVerb" target-start-line="46"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution-reactive|3:java:demo.Application|8:wordServiceImpl:25" bean-file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="25" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution-reactive/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution-reactive/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getAdjective" target-start-line="62"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="common-config-server"/>
+<aop-project name="demo-ui"/>
+<aop-project name="demo-service"/>
+<aop-project name="lab-7-sentence-server"/>
+<aop-project name="lab-5-word-server-solution"/>
+<aop-project name="lab-3-client-solution"/>
+<aop-project name="try-4-eureka-server-ha"/>
+<aop-project name="lab-3-server-solution"/>
+<aop-project name="lab-5-sentence-server-solution"/>
+<aop-project name="lab-10-config-server-solution"/>
+<aop-project name="lab-6-sentence-server-solution"/>
+<aop-project name="lab-6-word-server-solution"/>
+<aop-project name="lab-7-sentence-server-solution">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/lab-7-sentence-server-solution/src/main/java/demo/Application.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution|3:java:demo.Application|8:wordServiceImpl:17" bean-file="/lab-7-sentence-server-solution/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getNoun" target-start-line="50"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution|3:java:demo.Application|8:wordServiceImpl:17" bean-file="/lab-7-sentence-server-solution/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getSubject" target-start-line="28"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:lab-7-sentence-server-solution|3:java:demo.Application|8:wordServiceImpl:17" bean-file="/lab-7-sentence-server-solution/src/main/java/demo/service/WordServiceImpl.java" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/lab-7-sentence-server-solution/src/main/java/demo/Application.java" source="=lab-7-sentence-server-solution/\/Users\/shouhong\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.10\/hystrix-javanica-1.5.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=lab-7-sentence-server-solution/src\/main\/java&lt;demo.service{WordServiceImpl.java[WordServiceImpl~getAdjective" target-start-line="44"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="lab-7-word-server"/>
+<aop-project name="lab-9-word-server-solution"/>
+<aop-project name="lab-9-config-server"/>
+<aop-project name="lab-1-boot-solution"/>
+<aop-project name="AppinAllocationService"/>
+<aop-project name="lab-9-gateway"/>
+<aop-project name="lab-8-client"/>
+<aop-project name="lab-9-gateway-solution"/>
+<aop-project name="try-8-client"/>
+<aop-project name="lab-10-client-solution"/>
+<aop-project name="lab-10-client"/>
+<aop-project name="try-3-server"/>
+<aop-project name="try-4-eureka-client"/>
+<aop-project name="demo"/>
+<aop-project name="lab-4-eureka-client-solution"/>
+<aop-project name="lab-5-sentence-server"/>
+<aop-project name="lab-8-client-solution"/>
+<aop-project name="lab-4-eureka-server-solution"/>
+<aop-project name="try-4-subject"/>
+<aop-project name="try-3-client"/>
+<aop-project name="commmon-eureka-server"/>
+<aop-project name="lab-5-word-server"/>
+<aop-project name="lab-8-config-server"/>
+<aop-project name="lab-8-config-server-solution"/>
+<aop-project name="try-8-config-server"/>
+</aop-reference-model>
